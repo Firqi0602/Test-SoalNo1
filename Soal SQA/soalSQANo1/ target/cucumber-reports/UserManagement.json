@@ -1,0 +1,241 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-28T11:29:15.606Z",
+        "line": 9,
+        "name": "Check string palindrome",
+        "description": "",
+        "id": "check-string-palindrome-or-not;check-string-palindrome;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1995800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Input string \"makan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"makan\"",
+                  "offset": 13
+                }
+              ],
+              "location": "definitions.PalindromeDefinition.Input_string(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check palindrome",
+            "match": {
+              "location": "definitions.PalindromeDefinition.Check_palindrome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2991000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validasi palindrome\"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 19
+                }
+              ],
+              "location": "definitions.PalindromeDefinition.Validasi_palindrome(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-28T11:29:15.639Z",
+        "line": 10,
+        "name": "Check string palindrome",
+        "description": "",
+        "id": "check-string-palindrome-or-not;check-string-palindrome;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 997900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Input string \"makam\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"makam\"",
+                  "offset": 13
+                }
+              ],
+              "location": "definitions.PalindromeDefinition.Input_string(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check palindrome",
+            "match": {
+              "location": "definitions.PalindromeDefinition.Check_palindrome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validasi palindrome\"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 19
+                }
+              ],
+              "location": "definitions.PalindromeDefinition.Validasi_palindrome(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-28T11:29:15.651Z",
+        "line": 11,
+        "name": "Check string palindrome",
+        "description": "",
+        "id": "check-string-palindrome-or-not;check-string-palindrome;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Input string \"taat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"taat\"",
+                  "offset": 13
+                }
+              ],
+              "location": "definitions.PalindromeDefinition.Input_string(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check palindrome",
+            "match": {
+              "location": "definitions.PalindromeDefinition.Check_palindrome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validasi palindrome\"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 19
+                }
+              ],
+              "location": "definitions.PalindromeDefinition.Validasi_palindrome(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-28T11:29:15.661Z",
+        "line": 12,
+        "name": "Check string palindrome",
+        "description": "",
+        "id": "check-string-palindrome-or-not;check-string-palindrome;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Input string \"apple\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"apple\"",
+                  "offset": 13
+                }
+              ],
+              "location": "definitions.PalindromeDefinition.Input_string(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check palindrome",
+            "match": {
+              "location": "definitions.PalindromeDefinition.Check_palindrome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validasi palindrome\"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 19
+                }
+              ],
+              "location": "definitions.PalindromeDefinition.Validasi_palindrome(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check string palindrome or not",
+    "description": "",
+    "id": "check-string-palindrome-or-not",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featuresFiles/features.feature",
+    "tags": []
+  }
+]

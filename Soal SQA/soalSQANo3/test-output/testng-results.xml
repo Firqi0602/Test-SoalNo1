@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-28T18:08:49 WIB" name="Default suite" finished-at="2022-09-28T18:09:00 WIB" duration-ms="10327">
+    <groups>
+    </groups>
+    <test started-at="2022-09-28T18:08:49 WIB" name="Default test" finished-at="2022-09-28T18:09:00 WIB" duration-ms="10327">
+      <class name="tokopediaTest.TokopediaTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tokopediaTest.TokopediaTest@63a65a25]" started-at="2022-09-28T18:08:00 WIB" name="setup" finished-at="2022-09-28T18:08:49 WIB" duration-ms="49487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="scrollTest()[pri:0, instance:tokopediaTest.TokopediaTest@63a65a25]" started-at="2022-09-28T18:08:49 WIB" name="scrollTest" finished-at="2022-09-28T18:09:00 WIB" duration-ms="10290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tokopediaTest.TokopediaTest@63a65a25]" started-at="2022-09-28T18:09:00 WIB" name="close" finished-at="2022-09-28T18:09:00 WIB" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tokopediaTest.TokopediaTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
